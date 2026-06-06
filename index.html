@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NOIR BLADE — премиальный барбершоп. Мужские стрижки, бритьё и уход за бородой от лучших мастеров.">
+    <title>NOIR BLADE — Премиальный Барбершоп</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">NOIR BLADE</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#team">Команда</a></li>
+                    <li><a href="#testimonials">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="nav-cta">Записаться</a>
+            <button class="burger-menu" id="burgerMenu" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+        <div class="hero-bg" style="background-image: url('./img/hero-bg.png')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-badge">★ Премиальный барбершоп ★</p>
+            <h1 class="hero-title">Искусство<br><span>мужского</span> стиля</h1>
+            <p class="hero-description">Безупречные стрижки, классическое бритьё и уход за бородой. Мы создаём не просто образ — мы создаём уверенность.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Записаться</a>
+                <a href="#services" class="btn-secondary">Наши услуги</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span style="color: #666; font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase;">Scroll</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c8a45e" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper reveal-left">
+                    <img src="./img/barber-1.png" alt="Интерьер NOIR BLADE">
+                </div>
+                <div class="about-content reveal-right">
+                    <p class="section-subtitle">О нашем салоне</p>
+                    <h2 class="section-title">Больше, чем просто стрижка</h2>
+                    <p class="about-text">NOIR BLADE — это место, где традиции классического барберинга встречаются с современным стилем. Мы создали пространство, в котором каждый мужчина чувствует себя особенным.</p>
+                    <p class="about-text">Наши мастера — это не просто парикмахеры. Это художники, которые видят в каждом клиенте индивидуальность и подчёркивают её через идеальную стрижку и уход.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">7+</div>
+                            <div class="stat-label">Лет опыта</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-label">Довольных клиентов</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Наград</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+        <div class="container">
+            <p class="section-subtitle">Что мы предлагаем</p>
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">✂</div>
+                    <h3 class="service-name">Мужская стрижка</h3>
+                    <p class="service-description">Классическая или современная стрижка с учётом индивидуальных особенностей и пожеланий.</p>
+                    <div><span class="service-price">1 500 ₽</span><span class="service-duration">/ 60 мин</span></div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">✦</div>
+                    <h3 class="service-name">Королевское бритьё</h3>
+                    <p class="service-description">Традиционное бритьё опасной бритвой с горячим полотенцем и premium-уходом.</p>
+                    <div><span class="service-price">1 200 ₽</span><span class="service-duration">/ 45 мин</span></div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">✦</div>
+                    <h3 class="service-name">Стрижка бороды</h3>
+                    <p class="service-description">Моделирование и оформление бороды с использованием профессиональных средств.</p>
+                    <div><span class="service-price">800 ₽</span><span class="service-duration">/ 30 мин</span></div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">★</div>
+                    <h3 class="service-name">Комплекс «Джентльмен»</h3>
+                    <p class="service-description">Стрижка + оформление бороды + укладка. Полное преображение за один визит.</p>
+                    <div><span class="service-price">2 500 ₽</span><span class="service-duration">/ 90 мин</span></div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">◆</div>
+                    <h3 class="service-name">Камуфляж седины</h3>
+                    <p class="service-description">Естественное тонирование волос и бороды для свежего и молодого вида.</p>
+                    <div><span class="service-price">1 000 ₽</span><span class="service-duration">/ 40 мин</span></div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">✧</div>
+                    <h3 class="service-name">Детская стрижка</h3>
+                    <p class="service-description">Стрижка для юных джентльменов до 12 лет в комфортной атмосфере.</p>
+                    <div><span class="service-price">900 ₽</span><span class="service-duration">/ 40 мин</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section id="portfolio">
+        <div class="container">
+            <p class="section-subtitle">Наши работы</p>
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal">
+                    <img src="./img/portfolio-1.png" alt="Текстурный кроп">
+                    <div class="portfolio-item-overlay">
+                        <span class="portfolio-item-category">Стрижка</span>
+                        <span class="portfolio-item-title">Текстурный кроп</span>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal">
+                    <img src="./img/portfolio-2.png" alt="Классическое оформление бороды">
+                    <div class="portfolio-item-overlay">
+                        <span class="portfolio-item-category">Борода</span>
+                        <span class="portfolio-item-title">Классическое оформление</span>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal">
+                    <img src="./img/portfolio-1.png" alt="Андеркат с фейдом">
+                    <div class="portfolio-item-overlay">
+                        <span class="portfolio-item-category">Стрижка</span>
+                        <span class="portfolio-item-title">Андеркат с фейдом</span>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal">
+                    <img src="./img/portfolio-2.png" alt="Королевское бритьё">
+                    <div class="portfolio-item-overlay">
+                        <span class="portfolio-item-category">Уход</span>
+                        <span class="portfolio-item-title">Королевское бритьё</span>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal">
+                    <img src="./img/portfolio-1.png" alt="Помпадур">
+                    <div class="portfolio-item-overlay">
+                        <span class="portfolio-item-category">Стрижка</span>
+                        <span class="portfolio-item-title">Помпадур</span>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal">
+                    <img src="./img/portfolio-2.png" alt="Полное преображение">
+                    <div class="portfolio-item-overlay">
+                        <span class="portfolio-item-category">Комплекс</span>
+                        <span class="portfolio-item-title">Полное преображение</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TEAM ===== -->
+    <section id="team">
+        <div class="container">
+            <p class="section-subtitle">Познакомьтесь с нами</p>
+            <h2 class="section-title">Наша команда</h2>
+            <div class="team-grid">
+                <div class="team-card reveal">
+                    <img src="./img/barber-1.png" alt="Алексей Волков" class="team-photo">
+                    <h3 class="team-name">Алексей Волков</h3>
+                    <p class="team-role">Старший барбер</p>
+                    <p class="team-bio">10 лет опыта. Специализация — классические стрижки и опасное бритьё. Призёр международных конкурсов.</p>
+                </div>
+                <div class="team-card reveal">
+                    <img src="./img/barber-2.png" alt="Дмитрий Серов" class="team-photo">
+                    <h3 class="team-name">Дмитрий Серов</h3>
+                    <p class="team-role">Мастер-стилист</p>
+                    <p class="team-bio">7 лет опыта. Эксперт по современным стрижкам и колористике. Создаёт тренды, а не следует им.</p>
+                </div>
+                <div class="team-card reveal">
+                    <img src="./img/barber-3.png" alt="Максим Краев" class="team-photo">
+                    <h3 class="team-name">Максим Краев</h3>
+                    <p class="team-role">Барбер</p>
+                    <p class="team-bio">5 лет опыта. Мастер точных фейдов и детальной работы с бородой. Каждый клиент уходит довольным.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials">
+        <div class="container">
+            <p class="section-subtitle">Что говорят клиенты</p>
+            <h2 class="section-title">Отзывы</h2>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <p class="testimonial-text">Лучший барбершоп в городе! Хожу уже два года и ни разу не разочаровался. Алексей — настоящий мастер своего дела.</p>
+                    <p class="testimonial-author">Андрей К.</p>
+                    <p class="testimonial-author-role">Постоянный клиент</p>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <p class="testimonial-text">Атмосфера на высоте! Приходишь за стрижкой, а уходишь с зарядом уверенности на неделю вперёд. Рекомендую всем!</p>
+                    <p class="testimonial-author">Сергей М.</p>
+                    <p class="testimonial-author-role">Постоянный клиент</p>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <p class="testimonial-text">Привёл сына на первую стрижку — ребёнок в восторге! Мастера нашли подход, и теперь он сам просится к «своему барберу».</p>
+                    <p class="testimonial-author">Игорь Д.</p>
+                    <p class="testimonial-author-role">Клиент</p>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-quote-icon">❝</div>
+                    <p class="testimonial-text">Королевское бритьё — это нечто! Горячие полотенца, идеальная гладкость. Ощущение, как будто побывал в спа для настоящих мужчин.</p>
+                    <p class="testimonial-author">Владимир П.</p>
+                    <p class="testimonial-author-role">Постоянный клиент</p>
+                </div>
+                <div class="testimonial-dots" id="testimonialDots">
+                    <span class="testimonial-dot active" data-index="0"></span>
+                    <span class="testimonial-dot" data-index="1"></span>
+                    <span class="testimonial-dot" data-index="2"></span>
+                    <span class="testimonial-dot" data-index="3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <div class="container">
+            <p class="section-subtitle">Свяжитесь с нами</p>
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <p class="contact-label">Адрес</p>
+                            <p class="contact-value">ул. Тверская, 24, Москва</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <p class="contact-label">Телефон</p>
+                            <p class="contact-value">+7 (495) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <p class="contact-label">Часы работы</p>
+                            <p class="contact-value">Пн-Сб: 10:00 — 21:00</p>
+                            <p class="contact-value" style="color: #888;">Вс: 11:00 — 19:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉</div>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <p class="contact-value">info@noirblade.ru</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal-right" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" required id="formName">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Телефон" required id="formPhone">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Комментарий (необязательно)" id="formMessage"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit" id="formSubmit">Записаться на приём</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">NOIR BLADE</a>
+                    <p>Премиальный барбершоп в самом сердце Москвы. Традиции мастерства и современный стиль.</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#team">Команда</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Стрижки</a></li>
+                        <li><a href="#services">Бритьё</a></li>
+                        <li><a href="#services">Борода</a></li>
+                        <li><a href="#services">Комплексы</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Соцсети</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Telegram</a></li>
+                        <li><a href="#">VKontakte</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 NOIR BLADE. Все права защищены.</p>
+                <p>Сделано с ♠ для настоящих мужчин</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.style.borderBottom = '1px solid rgba(200,164,94,0.1)';
+            } else {
+                header.style.borderBottom = 'none';
+            }
+        });
+
+        // Burger menu
+        const burgerMenu = document.getElementById('burgerMenu');
+        const navLinks = document.getElementById('navLinks');
+        burgerMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            burgerMenu.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                burgerMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 80;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            const scrollY = window.pageYOffset;
+            sections.forEach(section => {
+                const sectionHeight = section.offsetHeight;
+                const sectionTop = section.offsetTop - 100;
+                const sectionId = section.getAttribute('id');
+                const link = document.querySelector(`.nav-links a[href="#${sectionId}"]`);
+                if (link) {
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        link.style.color = '#c8a45e';
+                    } else {
+                        link.style.color = '';
+                    }
+                }
+            });
+        });
+
+        // Scroll reveal animation
+        const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // Testimonials slider
+        const slides = document.querySelectorAll('.testimonial-slide');
+        const dots = document.querySelectorAll('.testimonial-dot');
+        let currentSlide = 0;
+        let slideInterval;
+
+        function showSlide(index) {
+            slides.forEach(s => { s.classList.remove('active'); s.style.display = 'none'; });
+            dots.forEach(d => d.classList.remove('active'));
+            currentSlide = index;
+            if (currentSlide >= slides.length) currentSlide = 0;
+            if (currentSlide < 0) currentSlide = slides.length - 1;
+            slides[currentSlide].style.display = 'block';
+            void slides[currentSlide].offsetWidth;
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+        }
+
+        function startSlider() {
+            slideInterval = setInterval(() => showSlide(currentSlide + 1), 5000);
+        }
+
+        dots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                clearInterval(slideInterval);
+                showSlide(parseInt(dot.dataset.index));
+                startSlider();
+            });
+        });
+
+        startSlider();
+
+        // Contact form
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = document.getElementById('formSubmit');
+            const originalText = btn.textContent;
+            btn.textContent = '✓ Заявка отправлена!';
+            btn.style.background = '#2a7d4f';
+            btn.style.color = 'white';
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.background = '';
+                btn.style.color = '';
+                this.reset();
+            }, 3000);
+        });
+
+        // Parallax effect on hero
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero-bg');
+            if (hero) {
+                const scrolled = window.pageYOffset;
+                hero.style.transform = `translateY(${scrolled * 0.4}px)`;
+            }
+        });
+    </script>
+
+</body>
+</html>
